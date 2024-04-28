@@ -1,0 +1,152 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+header {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.main {
+   background-image: url(../img/header.jpg);
+   width: 2000px;
+   height: 800px;
+   z-index: 2;
+}
+
+.menu1 {
+   font-size: 25;
+   font-family: "Myriad Pro";
+   padding-top: 20px;
+   display: flex;
+   color: #ed145b;
+}
+
+.menu1 b {
+   color: white;
+   font-weight: normal;
+}
+
+.menu2 {
+   font-size: 25;
+   font-family: "Myriad Pro";
+   color: white;
+   padding-top: 20px;
+   display: flex;
+   padding-left: 600px;
+   padding-right: 600px;
+}
+
+.menu2 b {
+   color: #ed145b;
+   font-weight: normal;
+}
+
+.menu2 ul {
+   display: flex;
+   list-style-type: none;
+}
+
+.menu2 li {
+   margin-right: 10px;
+}
+
+.menu2 li:last-child {
+   margin-right: 0;
+}
+
+.main2 {
+   color: white;
+   font-size: 46px;
+   display: flex;
+   justify-content: center;
+   text-transform: uppercase;
+   padding-top: 200px;
+   padding-bottom: 25px;
+}
+
+.hr-style {
+   width: 200px;
+   height: 1px;
+   background-color: #ed145b;
+   border: none;
+   margin: auto;
+}
+
+.item {
+   font-size: 22px;
+   color: white;
+   text-align: center;
+   padding-top: 25px;
+   line-height: 30px;
+}
+
+._button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+}
+
+.button {
+   display: inline-block;
+   padding: 10px 40px;
+   background-color: #ed145b;
+   color: white;
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 20px;
+   text-transform: uppercase;
+}
+
+.hr-style_1 {
+   width: 100%;
+   height: 50px;
+   background-color: #ed145b;
+   border: none;
+   position: absolute;
+   top: 750px;
+   z-index: 1;
+}
+
+.About {
+   height: 500px;
+   background-color: #f4f4f4;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+.title_about {
+   color: #5a5a5a;
+   font-size: 38px;
+}
+
+.content_about {
+   position: absolute;
+}
+
+.hr-style_2 {
+   width: 200px;
+   height: 1px;
+   background-color: #ed145b;
+   border: none;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.main_content_about {
+   font-size: 15px;
+   color: #5a5a5a;
+   width: 430px;
+   line-height: 2em;
+}
+
+.mac {
+   position: absolute;
+}

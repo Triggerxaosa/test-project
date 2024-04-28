@@ -1,0 +1,10 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+.conteiner {
+   position: absolute;
+   left: 120px;
+   top: 30px;
+}
